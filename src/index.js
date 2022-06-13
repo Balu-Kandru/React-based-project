@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+const employee = {
+  name: 'leon',
+  location: 'vizag',
+  bloodGroup: '0+',
+  age: 23,
+  profileImg: 'https://www.w3schools.com/howto/img_avatar.png'
+}
+  
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App employee={employee} />
   </React.StrictMode>
 );
 

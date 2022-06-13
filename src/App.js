@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='main'>
+          <img src={props.employee.profileImg} alt="pic from w3schools" ></img>
+          <h1 name='' >{props.employee.name}</h1>
+          <label for="loc" >Location</label>
+          <h3 name='loc'>{props.employee.location}</h3>
+          <label for="blood">Blood group</label>
+          <h3 name="blood">{props.employee.bloodGroup}</h3>
+          <label for="age">Age</label>
+          <h3 for="age">{props.employee.age}</h3>
+      </div>
+    </>
   );
 }
 
