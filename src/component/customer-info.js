@@ -1,14 +1,11 @@
-import "./stylesh.css"
-import {user} from "../App"
+import "./style.css"
 
-function Customer(){
+function Customer(props){
  return (
-     <div id="main">
      <div id="first">
-        <h3><strong>Appointment</strong> {user.Appointment}</h3>
-        <h3><strong>Email: </strong>{user.Email}</h3>
-        <h3><strong>Phone </strong>{user.phone}</h3>
-     </div>
+        <h3><strong>Appointment</strong> {props.data.Appointment}</h3>
+        <h3><strong>Email: </strong>{props.data.Email}</h3>
+        <h3><strong>Phone </strong>{props.data.phone}</h3>
      </div>
  )
 }

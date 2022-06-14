@@ -4,33 +4,32 @@ html,body{
 }
 #header{
   background-color: #E0ECF6; 
-  margin-top: 5px;
+  margin-top: 0.5em;
+  padding: 0 0.5rem ;
   display: flex;
   justify-content: space-between;
   border: black solid 1px;
 }
-button{
-  width: inherit;
-  height: 50px;
-  justify-self:center;
-  margin-top: 18px;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-right: 10px;
-  background-color: black;
-  color: antiquewhite;
-  margin-top: 6px;
-}
-h2{
-  justify-self: center;
-  margin-left: 10px;
-  margin-top: 9px;
-
-}
 h1{
-  margin-bottom: -4px;
-  margin-top: -1px;
+  margin: 0px;
 }
-label{
-  margin-left: 35px;
+.arr{
+  align-self: center;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button{
+  height: 40px;
+  align-self: center;
+  padding: 0 25px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+button:hover{
+  color: black;
+  background-color: beige;
 }

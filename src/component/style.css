@@ -1,0 +1,48 @@
+#first{
+    display:flex;
+    flex-direction: column;
+    border: 1px black solid;
+    margin: 0.5rem;
+}
+h3{
+    margin: 1rem;
+    font-weight:400;
+}
+#second{
+    display: flex;
+    justify-content: space-between;   
+    background-color: #E0ECF6;
+    border: 1px black solid; 
+    margin: 0.5rem;
+}
+.font{
+    font-weight: bolder;
+}
+.sub{
+    margin:0px;
+    font-weight: 600;
+}
+#third{
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+#pro{
+    align-self: flex-start;
+    margin: 0 0.5em;
+    font-weight: 600;
+}
+h5{
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+img{
+    height: 15em;
+    width: 11em;
+}
+input{
+    width: 5vw;
+    height: 3vh;
+}

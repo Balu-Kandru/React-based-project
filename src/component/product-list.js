@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "./stylesh.css"
+import "./style.css"
 function Productlist(props){
     return (
         <Fragment>
