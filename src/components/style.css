@@ -1,0 +1,69 @@
+#header{
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    color: green;
+}
+.logo_icon{
+    width: 3em;
+    height: 3em;
+}
+#app_name{
+    font-size: 3em;
+    margin: 0;
+}
+#name{
+    display: flex;
+}
+.post{
+    margin: 1rem;    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    width: 35vw;
+    flex-wrap: wrap;
+    border: 1px black solid;
+    border-radius: 10px 10px 0 0;
+}
+.name_loc{
+    margin: 0px;
+}
+.image{
+    display: flex;
+    width: 37vw;
+    height: 45vh;
+    border: 0.5px black solid;
+
+}
+#footer{
+    width: 35vw;
+    height: 14vh;
+    padding: 1vw;
+    border: 1px black solid;
+    border-radius: 0 0 10px 10px;
+} 
+#footer_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2vh;
+    padding: 0.3rem 0;
+}
+.like_share{
+    height: 3vh;
+    width: 1.9vw;
+    padding: 0.3rem;
+}
+.date, .likes{
+    font-weight: 400;
+}
