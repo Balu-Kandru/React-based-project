@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 const employee = {
-  name: 'leon',
-  location: 'vizag',
+  name: 'Tom',
+  location: 'New York',
   bloodGroup: '0+',
   age: 23,
   profileImg: 'https://www.w3schools.com/howto/img_avatar.png'
