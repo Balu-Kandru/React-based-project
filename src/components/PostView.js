@@ -5,7 +5,7 @@ import './style.css'
 function Postview() {
   const [userData, setUserData]=useState([]);
   useEffect(()=>{
-    fetch('http://localhost:3004/user')
+    fetch('http://localhost:3001/user')
     .then((data)=>{
       return data.json()
     })
